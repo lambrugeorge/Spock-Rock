@@ -46,7 +46,7 @@ h2 {
 .far {
   font-size: 50px;
   margin-right: 40px;
-  user-Select: none;
+  user-select: none;
 }
 
 #player .far,
@@ -66,7 +66,6 @@ h2 {
   margin-right: 0;
 }
 
-
 .selected {
   color: black !important;
 }
@@ -78,7 +77,6 @@ h2 {
 .computer-icon {
   color: rgb(204, 5, 5);
 }
-
 
 .reset-icon {
   font-size: 30px;
