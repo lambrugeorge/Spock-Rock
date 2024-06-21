@@ -8,7 +8,7 @@ body {
   margin: 0;
   min-height: 100vh;
   background: whitesmoke;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,13 +18,15 @@ body {
   width: 530px;
   height: 600px;
   background: white;
-  border-radius: 5px;
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
 }
 
 .header {
   background: dodgerblue;
-  border-radius: 5px 5px 0 0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,7 +48,6 @@ h2 {
 .far {
   font-size: 50px;
   margin-right: 40px;
-  user-select: none;
 }
 
 #player .far,
@@ -57,8 +58,7 @@ h2 {
 
 #computer .far,
 #computer .choice {
-  color: rgb(204, 5, 5);
-  cursor: pointer;
+  color: rgb(235, 43, 52);
 }
 
 #player .far:last-of-type,
@@ -68,14 +68,6 @@ h2 {
 
 .selected {
   color: black !important;
-}
-
-.player-icon {
-  color: dodgerblue;
-}
-
-.computer-icon {
-  color: rgb(204, 5, 5);
 }
 
 .reset-icon {
