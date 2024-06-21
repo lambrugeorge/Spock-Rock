@@ -6,7 +6,7 @@ A simple web-based implementation of the game "Rock Paper Scissors Lizard Spock"
 
 ## Demo
 
-You can play the game online [here](https://example.com).
+You can play the game online [here](https://lambrugeorge.github.io/Spock-Rock/)).
 
 ## How to Play
 
